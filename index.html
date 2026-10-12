@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="it" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional certificates, education and selected game projects.">
+    <title>Roberto Golia | Professional Profile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/stylesheet.css">
+    <script src="src/js/script.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <header class="header">
+            <a class="brand" href="#top">RG<span>.</span></a>
+
+            <div class="controls">
+                <div class="languages" aria-label="Language selection">
+                    <button type="button" data-lang="it" class="language-button active" aria-pressed="true">IT</button>
+                    <button type="button" data-lang="en" class="language-button" aria-pressed="false">EN</button>
+                    <button type="button" data-lang="de" class="language-button" aria-pressed="false">DE</button>
+                </div>
+
+                <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Attiva tema scuro">
+                    <span id="theme-icon" aria-hidden="true">☾</span>
+                </button>
+            </div>
+        </header>
+
+        <section class="intro" id="top">
+            <p class="eyebrow" data-i18n="eyebrow">PROFILO PROFESSIONALE</p>
+            <h1>Roberto Golia<span class="title-dot">.</span></h1>
+            <p class="intro-text" data-i18n="intro">
+                Una selezione di certificazioni, formazione complementare e progetti digitali che completano il mio percorso professionale.
+            </p>
+        </section>
+
+        <section class="section" id="certificates">
+            <div class="section-heading">
+                <span class="section-number">01</span>
+                <h2 data-i18n="certificates">Certificazioni professionali</h2>
+            </div>
+
+            <a class="list-item" href="src/documents/your-power.pdf" target="_blank" rel="noopener">
+                <span>
+                    <strong>Your Power</strong>
+                    <small data-i18n="yourPower">FFS · Formazione complementare</small>
+                </span>
+                <span class="item-action" data-i18n="viewPdf">Apri PDF ↗</span>
+            </a>
+
+            <a class="list-item" href="src/documents/lrd.pdf" target="_blank" rel="noopener">
+                <span>
+                    <strong>LRD</strong>
+                    <small data-i18n="lrd">FFS · Attestato relativo alla lotta contro il riciclaggio di denaro</small>
+                </span>
+                <span class="item-action" data-i18n="viewPdf">Apri PDF ↗</span>
+            </a>
+        </section>
+
+        <section class="section" id="education">
+            <div class="section-heading">
+                <span class="section-number">02</span>
+                <h2 data-i18n="education">Formazione complementare</h2>
+            </div>
+
+            <div class="list-item">
+                <span>
+                    <strong>Game Programming</strong>
+                    <small>Digital Bros Game Academy</small>
+                </span>
+            </div>
+
+            <div class="list-item">
+                <span>
+                    <strong>AI Programming</strong>
+                    <small>Digital Bros Game Academy</small>
+                </span>
+            </div>
+
+            <div class="list-item">
+                <span>
+                    <strong>Visual Design · Gaming</strong>
+                    <small>SSS'AA Lugano</small>
+                </span>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-heading">
+                <span class="section-number">03</span>
+                <h2 data-i18n="projects">Progetti videoludici selezionati</h2>
+            </div>
+
+            <a class="project-item" href="https://digital-bros-game-academy.itch.io/res-mutatae" target="_blank" rel="noopener">
+                <div class="project-topline">
+                    <span class="project-type">GAME DEVELOPMENT</span>
+                    <span class="project-arrow" aria-hidden="true">↗</span>
+                </div>
+                <h3>Res Mutatae</h3>
+                <p data-i18n="resMutatae">
+                    Puzzle game fantascientifico sviluppato durante il percorso di studi in game programming.
+                </p>
+            </a>
+
+            <a class="project-item" href="https://lucabarilla.itch.io/canvas-conspiracy" target="_blank" rel="noopener">
+                <div class="project-topline">
+                    <span class="project-type">GAME JAM</span>
+                    <span class="project-arrow" aria-hidden="true">↗</span>
+                </div>
+                <h3>Canvas Conspiracy</h3>
+                <p data-i18n="canvasConspiracy">
+                    Progetto videoludico realizzato in un contesto collaborativo di game jam.
+                </p>
+            </a>
+
+            <a class="project-item" href="https://allavoltadicomo.filolario.it/" target="_blank" rel="noopener">
+                <div class="project-topline">
+                    <span class="project-type">WEB DEVELOPMENT</span>
+                    <span class="project-arrow" aria-hidden="true">↗</span>
+                </div>
+                <h3>Alla Volta di Como</h3>
+                <p data-i18n="como">
+                    Progetto web legato a una caccia al tesoro culturale dedicata alla scoperta della città di Como.
+                </p>
+            </a>
+        </section>
+
+        <footer class="footer">
+            <span>Roberto Golia</span>
+            <a href="#top" data-i18n="backToTop">Torna all'inizio ↑</a>
+        </footer>
+    </main>
+</body>
+</html>
