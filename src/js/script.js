@@ -1,4 +1,3 @@
-
 const html = document.documentElement;
 const themeToggle = document.getElementById("theme-toggle");
 const languageButtons = document.querySelectorAll("[data-lang]");
@@ -17,9 +16,9 @@ const translations = {
         eduVisual: "Design Visivo · indirizzo Gaming",
         eduGame: "Master in Game Programming",
         eduAI: "Specializzazione in AI Programming",
-        projects: "Progetti videoludici",
+        projects: "Giochi e progetti",
         resMutatae: "Puzzle game fantascientifico sviluppato durante il percorso di studi in game programming.",
-        canvasConspiracy: "Progetto videoludico realizzato in un contesto collaborativo di game jam.",
+        canvasConspiracy: "Gioco creato in quattro giorni alla game jam «Truth, Lies and Democracy» di Vienna (settembre 2025), dove mi sono occupato della grafica 2D.",
         mutateBug: "Simulatore idle di crescita: coltivi insetti in piastre di Petri, ognuno con mutazioni e rarità casuali. Realizzato per sperimentare Claude Code con MCP in Roblox Studio.",
         backToTop: "Torna all'inizio ↑",
         darkMode: "Attiva tema scuro",
@@ -38,9 +37,9 @@ const translations = {
         eduVisual: "Visual Design · Gaming specialization",
         eduGame: "Master in Game Programming",
         eduAI: "AI Programming specialization",
-        projects: "Game projects",
+        projects: "Games & Projects",
         resMutatae: "A science-fiction puzzle game developed during my game programming studies.",
-        canvasConspiracy: "A game project created in a collaborative game jam setting.",
+        canvasConspiracy: "Game made in four days at the “Truth, Lies and Democracy” game jam in Vienna (September 2025), where I worked as a 2D artist.",
         mutateBug: "An idle growth simulator: you grow bugs in Petri dishes, each with random mutations and rarities. Built to test Claude Code with MCP in Roblox Studio.",
         backToTop: "Back to top ↑",
         darkMode: "Switch to dark mode",
@@ -59,9 +58,9 @@ const translations = {
         eduVisual: "Visuelles Design · Schwerpunkt Gaming",
         eduGame: "Master in Game Programming",
         eduAI: "Spezialisierung in AI Programming",
-        projects: "Game-Projekte",
+        projects: "Spiele & Projekte",
         resMutatae: "Ein Science-Fiction-Puzzle-Spiel, das während meiner Ausbildung in Game Programming entwickelt wurde.",
-        canvasConspiracy: "Ein Spielprojekt aus einem kollaborativen Game-Jam-Umfeld.",
+        canvasConspiracy: "Spiel, das in vier Tagen bei der Game Jam „Truth, Lies and Democracy“ in Wien (September 2025) entstanden ist. Ich war für die 2D-Grafik zuständig.",
         mutateBug: "Ein Idle-Wachstumssimulator: Käfer in Petrischalen züchten, jeder mit zufälligen Mutationen und Seltenheiten. Entstanden, um Claude Code mit MCP in Roblox Studio zu testen.",
         backToTop: "Nach oben ↑",
         darkMode: "Dunkles Design aktivieren",
